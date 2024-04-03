@@ -1,0 +1,158 @@
+-- -----------------------------------------------------
+-- Table recipe
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS recipe (
+    recipe_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    description TEXT NOT NULL,
+    bake_cook VARCHAR(100) NOT NULL,
+    ethnicity VARCHAR(100) NOT NULL,
+    difficulty VARCHAR(100) NOT NULL,
+    meal_type VARCHAR(100) NOT NULL,
+    label VARCHAR(100) NOT NULL,
+    tips TEXT NOT NULL,
+    equipment TEXT NOT NULL,
+    preparation INT NOT NULL,
+    servings INT NOT NULL,
+    ingredients TEXT NOT NULL,
+    type VARCHAR(100) NOT NULL,
+    diet_info TEXT NOT NULL,
+    theme VARCHAR(100) NOT NULL
+);
+
+
+-- -----------------------------------------------------
+-- Table equipment
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS equipment (
+       equip_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
+       equip_name VARCHAR(100) NOT NULL,
+       instruction TEXT NOT NULL)
+;
+
+
+-- -----------------------------------------------------
+-- Table ingredients
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS ingredients (
+    ingr_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    ingr_name VARCHAR(100) NOT NULL,
+    amount VARCHAR(100) NOT NULL,
+    ingr_class VARCHAR(100) NOT NULL,
+    is_basic BOOLEAN NOT NULL
+);
+
+-- -----------------------------------------------------
+-- Table episode
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS episode (
+    episode_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    episode_num INT NOT NULL,
+    selected_ethnicity VARCHAR(100) NOT NULL,
+    selected_cooks_ethnicity VARCHAR(100) NOT NULL,
+    selected_judges VARCHAR(100) NOT NULL,
+    selected_ethnic_recipe VARCHAR(100) NOT NULL,
+    score_recipe DECIMAL(5, 2) NOT NULL
+);
+
+-- -----------------------------------------------------
+-- Table image
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS image (
+    image_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    image_name VARCHAR(255) NOT NULL,
+    image_desc TEXT NOT NULL
+);
+
+-- -----------------------------------------------------
+-- Table admin
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS admin (
+    admin_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(100) NOT NULL,
+    password VARCHAR(100) NOT NULL
+);
+
+-- -----------------------------------------------------
+-- Table competition
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS competition (
+    comp_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    episode INT NOT NULL,
+    winner VARCHAR(100)
+);
+
+-- -----------------------------------------------------
+-- Table score
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS score (
+    score_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    score_num DECIMAL(5, 2) NOT NULL,
+    cook VARCHAR(100) NOT NULL,
+    recipe INT NOT NULL
+);
+
+
+-- -----------------------------------------------------
+-- Table preparation 
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS preparation (
+   totaltime INT NOT NULL,
+   prep_time INT NOT NULL,
+   cook_time INT NOT NULL,
+   PRIMARY KEY (totaltime),
+   check (totaltime=prep_time+cook_time)
+);
+
+-- -----------------------------------------------------
+-- Table dietary_info
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS dietary_info(
+   ingr_name VARCHAR(100) NOT NULL,
+   calories INT NOT NULL,
+   gram_fat_serv INT NOT NULL,
+   gram_prot_serv INT NOT NULL,
+   gram_carb_serv INT C,
+   gram_cal_serv INT NOT NULL,
+ );
+
+
+-- -----------------------------------------------------
+-- Table theme 
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS theme (
+  theme_id INT NOT NULL AUTO_INCREMENT,
+  theme_name VARCHAR(100) NOT NULL,
+  theme_desc VARCHAR(100) NOT NULL,
+  PRIMARY KEY (theme_id)
+);
+
+
+-- -----------------------------------------------------
+-- Table cook_user
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS cook_user (
+    cook_id INT AUTO_INCREMENT PRIMARY KEY,
+    cook_name VARCHAR(100) NOT NULL,
+    cook_surname VARCHAR(100) NOT NULL,
+    phone_num VARCHAR(100) NOT NULL,
+    birth_date VARCHAR(100) NOT NULL,
+    age INT NOT NULL,
+    experience_years INT NOT NULL,
+    username VARCHAR(100) NOT NULL,
+    PASSWORD VARCHAR(100) NOT NULL,
+    vocation VARCHAR(100) NOT NULL
+);
+
+
+-- -----------------------------------------------------
+-- Table ingredient_class
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS ingredient_class (
+    class_id INT NOT NULL AUTO_INCREMENT,
+    class_name VARCHAR(255) NOT NULL,
+    class_desc TEXT NOT NULL,
+    PRIMARY KEY (class_id)
+);
+
+
+

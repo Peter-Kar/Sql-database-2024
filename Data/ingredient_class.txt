@@ -1,0 +1,11 @@
+INSERT INTO ingredient_class (class_name, class_desc) VALUES ('Φρούτα', 'Φρέσκα φρούτα που προσφέρουν μια πλούσια γκάμα βιταμινών, μετάλλων και αντιοξειδωτικών που ενισχύουν την υγεία, όπως μήλα, πορτοκάλια, μπανάνες.');
+INSERT INTO ingredient_class (class_name, class_desc) VALUES ('Λαχανικά', 'Πλούσια σε φυτικές ίνες, βιταμίνες και μέταλλα, όπως σπανάκι, καρότα, πιπεριές, τομάτες.');
+INSERT INTO ingredient_class (class_name, class_desc) VALUES ('Κρεατικά', Πηγή υψηλής πρωτεΐνης, σημαντικών μετάλλων και βιταμινών, όπως κοτόπουλο, βοδινό, χοιρινό.');
+INSERT INTO ingredient_class (class_name, class_desc) VALUES ('Ψάρια και Θαλασσινά', 'Πλούσια σε ωμέγα-3 λιπαρά οξέα, όπως σολωμός, γαρίδες, μύδια, προσφέρουν οφέλη για την καρδιακή υγεία και τη νευρική λειτουργία.');
+INSERT INTO ingredient_class (class_name, class_desc) VALUES ('Γαλακτοκομικά', 'Πηγή ασβεστίου, πρωτεΐνης και βιταμινών, όπως γάλα, τυρί, και γιαούρτι.');
+INSERT INTO ingredient_class (class_name, class_desc) VALUES ('Μπαχαρικά και Μυρωδικά', 'Προσφέρουν γεύση, αρώματα και ενίοτε θεραπευτικές ιδιότητες, όπως μέντα, κύμινο, πάπρικα, μαϊντανός.');
+INSERT INTO ingredient_class (class_name, class_desc) VALUES ('Προϊόντα με γλυκαντικές ύλες', 'Πηγή ενέργειας και γλυκύτητας, όπως ζάχαρη, μέλι, σοκολάτα, και μαρμελάδες.');
+INSERT INTO ingredient_class (class_name, class_desc) VALUES ('Δημητριακά', 'Πηγή ενέργειας, φυτικών ινών και βιταμινών, όπως ψωμί, ζυμαρικά, ρύζι.');
+INSERT INTO ingredient_class (class_name, class_desc) VALUES ('Όσπρια', 'Πλούσια σε πρωτεΐνες, φυτικές ίνες, μέταλλα και βιταμίνες πχ φασόλια, φακές.');
+INSERT INTO ingredient_class (class_name, class_desc) VALUES ('Ζυμαρικά', 'Πηγή ενέργειας και φυτικής πρωτεΐνης, συμπληρώνουν ιδανικά τη διατροφική σας πρόσληψη.');
+INSERT INTO ingredient_class (class_name, class_desc) VALUES ('Λίπη, έλαια, ξηροί καρποί', 'π.χ. ελαιόλαδο, βούτυρο, καρύδια.');

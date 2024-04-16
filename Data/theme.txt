@@ -1,0 +1,12 @@
+INSERT INTO theme (theme_name, theme_desc) VALUES ('Πασχαλινά Γλυκά', 'Συνταγές για γλυκά που τρώμε το Πάσχα');
+INSERT INTO theme (theme_name, theme_desc) VALUES ('Σνάκς', 'Συνταγές για γρήγορα και εύκολα μικά γεύματα');
+INSERT INTO theme (theme_name, theme_desc) VALUES ('Χριστουγεννιάτικα Γλυκά', 'Συνταγές για γλυκά που τρώμε τα Χριστούγεννα');
+INSERT INTO theme (theme_name, theme_desc) VALUES ('Συνταγές ζυμαρικών', Συνταγές όπου το βασικό τους υλικό είναι ζυμαρικό');
+INSERT INTO theme (theme_name, theme_desc) VALUES ('Παραδοσιακές Συνταγές', 'Συνταγές που εκπροσωπούν την παράδοση, τη γεύση και τον πολιτισμό της χώρας μας');
+INSERT INTO theme (theme_name, theme_desc) VALUES ('Υγιεινές Επιλογές', 'Συνταγές για υγιεινά και ισορροπημένα γεύματα');
+INSERT INTO theme (theme_name, theme_desc) VALUES ('Κυριακάτικο Γεύμα', 'Συνταγές ιδανικές για το κυριακάτικο οικογενειακό τραπέζι');
+INSERT INTO theme (theme_name, theme_desc) VALUES ('Χορτοφαγικές Συνταγές', Συνταγές ιδανικές για όσους δεν τρώνε κρέας');
+INSERT INTO theme (theme_name, theme_desc) VALUES ('Εποχιακές Συνταγές', 'Συνταγές που βασίζονται στα εποχιακά προϊόντα, όπως καλοκαιρινές σαλάτες');
+INSERT INTO theme (theme_name, theme_desc) VALUES ('Συνταγές Χωρίς Ζάχαρη', 'Συνταγές που δεν περιέχουν ζάχαρη');
+INSERT INTO theme (theme_name, theme_desc) VALUES ('Θαλασσινά', 'Φαγητά που περιλαμβάνουν ορυκτά και ζωικά τρόφιμα που προέρχονται από τη θάλασσα');
+INSERT INTO theme (theme_name, theme_desc) VALUES ('Εύκολες και Γρήγορες Συνταγές', 'Συνταγές που μπορούν να προετοιμαστούν γρήγορα και εύκολα, για όοσυς δεν έχουν πολύ χρόνο για μαγειρική');

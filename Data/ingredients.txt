@@ -1,0 +1,80 @@
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Μαρούλι','Λαχανικά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Μπρόκολο','Λαχανικά,
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Καρότο','Λαχανικά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Πατάτα','Λαχανικά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Κρεμμύδι','Λαχανικά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Σκόρδο','Λαχανικά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Πιπερία','Λαχανικά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Ντομάτα','Λαχανικά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Αγγούρι','Λαχανικά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Κοτόπουλο','Κρεατικά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Χοιρινό', 'Κρεατικά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Βοδινό','Κρεατικά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Αρνί','Κρεατικά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Φασόλια','Όσπρια',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Φακές','Όσπρια',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Αρακάς','Όσπρια',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Κινόα','Όσπρια',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Ρύζι','Δημητριακό',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Βρώμη','Δημητριακό',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Αλεύρι','Δημητριακό',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Αλάτι','Μπαχαρικά και Μυρωδικά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Μαγιά','Ζυμαρικά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Φέτα','Γαλακτοκομικά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Μοτσαρέλα','Γαλακτοκομικά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Παρμεζάνα','Γαλακτοκομικά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Γκούντα','Γαλακτοκομικά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Σαρδέλα','Θαλασσινά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Σολομός','Θαλασσινά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Καλαμάρι','Θαλασσινά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Αστακός','Θαλασσινά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Μήλο','Φρούτα',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Πορτοκάλι','Φρούτα',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Μπανάνα','Φρούτα',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Ακτινίδιο','Φρούτα',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Φράουλα','Φρούτα',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Κεράσι','Φρούτα',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Πιπέρι','Μπαχαρικά και Μυρωδικά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Κύμινο','Μπαχαρικά και Μυρωδικά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Κανέλα','Μπαχαρικά και Μυρωδικά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Κάρδαμο','Μπαχαρικά και Μυρωδικά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Πάπρικα','Μπαχαρικά και Μυρωδικά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Ρίγανη','Μπαχαρικά και Μυρωδικά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Δυόσμος','Μπαχαρικά και Μυρωδικά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Βασιλικός','Μπαχαρικά και Μυρωδικά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Θυμάρι','Μπαχαρικά και Μυρωδικά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Περγαμόντο','Μπαχαρικά και Μυρωδικά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Ζάχαρη','Προϊόντα με γλυκαντικές ύλες',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Μέλι','Προϊόντα με γλυκαντικές ύλες',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Αβοκάντο','Λαχανικά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Προσούτο','Κρεατικά',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Κολοκύθι','Λαχανικά,
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Λεμόνι','Φρούτα',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Λευκή Σοκολάτα','Προϊόντα με γλυκαντικές ύλες',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Μαύρη Σοκολάτα','Προϊόντα με γλυκαντικές ύλες',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Σοκολάτα Γάλακτος','Προϊόντα με γλυκαντικές ύλες',
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Άσπρα Σπόρια Τσία','Δημητριακά','');
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Μαύρα Σπόρια Τσία','Δημητριακά','');
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Choy sum','Λαχανικό','');
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Λάδι Ηλιόσπορου','Λίπη, έλαια, ξηροί καρποί','');
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Τζίντζερ','Μπαχαρικά και Μυρωδικά','');
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Νούντλς','Ζυμαρικά','');
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Ηλιέλαιο','Λίπη, έλαια, ξηροί καρποί','');
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Ελαιόλαδο','Λίπη, έλαια, ξηροί καρποί','');
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Σέλινο','Λαχανικό','');
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Φακές','Όσπρια','');
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Πουμαρό','Λαχανικό','');
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Φύλλα δάφνης','Μπαχαρικά και Μυρωδικά','');
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('Κόλιανδρο','Μπαχαρικά και Μυρωδικά','');
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('','','');
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('','','');
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('','','');
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('','','');
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('','','');
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('','','');
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('','','');
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('','','');
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('','','');
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('','','');
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('','','');
+INSERT INTO ingredients (ingr_name, ingr_class, is_basic) VALUES ('','','');

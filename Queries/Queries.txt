@@ -1,0 +1,11 @@
+
+
+Dietary info
+-----------------------------------------------------------------------------------------
+CREATE FUNCTION Calories(customer_id INT)
+RETURNS DECIMAL(10, 2)
+BEGIN
+    DECLARE total DECIMAL(10, 2);
+    SELECT SUM(amount) INTO total FROM sales WHERE customer_id = customer_id;
+    RETURN total;
+END;
